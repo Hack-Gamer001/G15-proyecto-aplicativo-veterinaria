@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Cliente" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Personal" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Cita" />
+        <item
+            android:id="@+id/nav_detalles"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Detalles" />
+        <item
+            android:id="@+id/nav_estado"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Estados" />
+        <item
+            android:id="@+id/nav_reporte"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Reportes" />
+    </group>
+</menu>

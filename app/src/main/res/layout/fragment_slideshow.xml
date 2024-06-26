@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    tools:context=".ui.slideshow.SlideshowFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Spinner para seleccionar al cliente -->
+            <Spinner
+                android:id="@+id/spinnerClientes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/text_slideshow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fecha:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@id/spinnerClientes"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <DatePicker
+                android:id="@+id/datePickerFecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/text_slideshow"
+                android:calendarViewShown="false"
+                android:datePickerMode="spinner"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/textViewHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hora:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@id/datePickerFecha"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <TimePicker
+                android:id="@+id/timePickerHora"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textViewHora"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/textViewMotivoCita"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Motivo de la Cita:"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_below="@id/timePickerHora"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/editTextMotivoCita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:layout_below="@id/textViewMotivoCita"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Otros campos y vistas pueden seguir aquí -->
+
+            <Button
+                android:id="@+id/btnGuardarCita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guardar Cita"
+                android:layout_below="@id/editTextMotivoCita"
+                android:layout_marginTop="16dp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+
+

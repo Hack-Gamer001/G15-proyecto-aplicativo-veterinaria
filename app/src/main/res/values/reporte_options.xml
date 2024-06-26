@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/reporte_options.xml -->
+
+<resources>
+    <string-array name="reporte_options">
+        <item>Reporte de relación de citas</item>
+        <item>Reporte de cliente más frecuente</item>
+        <item>Reporte de cargos</item>
+        <item>Reporte de datos de clientes</item>
+        <item>Reporte de detalles de las citas</item>
+        <item>Reporte de clientes con total de citas</item>
+    </string-array>
+</resources>

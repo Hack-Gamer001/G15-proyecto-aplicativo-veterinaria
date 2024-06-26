@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">BD2_Veterinaria</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+
+
+
+    <string name="seleccionar_reporte">Seleccionar Reporte</string>
+    <string name="generar_reporte">Generar Reporte</string>
+
+    <string-array name="tipos_cargo_array">
+        <item>Gerente</item>
+        <item>Veterinario</item>
+        <item>Técnico</item>
+        <item>Administrativo</item>
+    </string-array>
+
+
+
+
+    <string name="reporte_citas">Resultado del reporte de citas</string>
+    <string name="reporte_clientes_frecuentes">Resultado del reporte de clientes frecuentes</string>
+    <string name="reporte_cargos">Resultado del reporte de cargos</string>
+    <string name="reporte_clientes">Resultado del reporte de datos de clientes</string>
+    <string name="reporte_detalles_citas">Resultado del reporte de detalles de citas</string>
+    <string name="reporte_clientes_con_total_citas">Resultado del reporte de clientes con total de citas</string>
+
+</resources>

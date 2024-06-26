@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.reportes.ReportesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <Spinner
+            android:id="@+id/spinnerReporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:prompt="@string/seleccionar_reporte"/>
+
+        <Button
+            android:id="@+id/btnGenerarReporte"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/generar_reporte"/>
+
+        <ListView
+            android:id="@+id/tvResultadoReporte"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        android:background="#E8E8E8"/> <!-- Añade un fondo para mayor claridad -->
+
+    </LinearLayout>
+</RelativeLayout>

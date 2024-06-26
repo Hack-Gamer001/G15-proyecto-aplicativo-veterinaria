@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.estado.EstadoFragment">
+
+    <Spinner
+        android:id="@+id/spinnerClienteID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="Seleccionar Cliente"/>
+
+    <Spinner
+        android:id="@+id/spinnerCitaID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerClienteID"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Seleccionar Cita"/>
+
+    <Spinner
+        android:id="@+id/spinnerEstadoCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerCitaID"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Seleccionar Estado de Cita"
+        android:entries="@array/estado_cita_options"/>
+
+    <!-- Otros elementos de la interfaz -->
+
+    <Button
+        android:id="@+id/btnGuardarCita"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Cita"
+        android:layout_below="@id/spinnerEstadoCita"
+        android:layout_marginTop="16dp" />
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="2440dp"
+        android:layout_height="230dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vet3"
+        android:layout_marginTop="390dp" />
+
+</RelativeLayout>

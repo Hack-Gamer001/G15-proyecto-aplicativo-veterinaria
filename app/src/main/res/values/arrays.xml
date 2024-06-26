@@ -1,0 +1,30 @@
+<resources>
+    <!-- Opciones para el spinner de tipo de servicio -->
+    <array name="opciones_tipo_servicio">
+        <item>Atención de Emergencia</item>
+        <item>Cirugía</item>
+        <item>Hospitalización</item>
+        <item>Vacunación</item>
+        <item>Desparasitación</item>
+    </array>
+
+
+
+    <!-- Opciones para el spinner de estado de cita -->
+    <string-array name="estado_cita_options">
+        <item>Confirmado</item>
+        <item>Cancelado</item>
+    </string-array>
+
+
+
+
+    <string-array name="opciones_reporte">
+        <item>Reporte de relación de citas</item>
+        <item>Reporte de cliente más frecuente</item>
+        <item>Reporte de cargos que pueden acceder al sistema</item>
+        <item>Reporte de datos de clientes</item>
+        <item>Reporte de detalles de las citas</item>
+        <item>Reporte de clientes con total de citas confirmadas y canceladas</item>
+    </string-array>
+</resources>

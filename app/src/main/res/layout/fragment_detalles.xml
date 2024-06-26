@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ui.detalles.DetallesFragment">
+
+    <TextView
+        android:id="@+id/text_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Detalles y Servicios"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:id="@+id/spinnerClientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_details"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="8dp"
+        android:layout_centerHorizontal="true"/>
+
+    <Spinner
+        android:id="@+id/spinnerTipoServicio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spinnerClientes"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/editTextDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:hint="Detalles"
+        android:layout_below="@id/spinnerTipoServicio"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnGuardarDetalles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Guardar Detalles"
+        android:layout_below="@id/editTextDetalles"
+        android:layout_marginTop="16dp"/>
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/gifImageView2"
+        android:layout_width="340dp"
+        android:layout_height="340dp"
+        android:layout_gravity="center"
+        android:src="@drawable/vet4"
+        android:layout_marginTop="370dp" />
+
+</RelativeLayout>
